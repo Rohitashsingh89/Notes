@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    padding-right: 20px; 
+    font-family: var(--font1);
+}
+a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: pink;
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: rgb(232, 97, 97);
+}
+.left ul{
+    display: flex;
+    padding-left: 50px;
+    padding: 15px;
+}
+.left{
+    display: flex; 
+}
+.title{
+    position: relative;
+    font-size: 20pt;
+    font-family: var(--font2);
+    padding: 10px;
+}
+.form-control{
+    border-radius: 5px;
+    padding-left: 10px;
+    align-items: center;
+    border: 2px solid black;
+    font-family: var(--font2);
+    height: 20;
+}
+.content{
+    width: 50%;
+    min-height: 50vh;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    margin-top: 20px;
+}
+.content-left{
+    margin: 10px;
+}
+.content-left p{
+    padding-top: 10px;
+}
+.content-right{
+    margin: 10px;
+}
+.content-right img{
+    height: 200px;
+    border-radius: 20px;
+}
+.Home-article{
+    padding-top: 10px;
+}
+.mx-auto{
+    margin: auto;
+}
+.py1{
+    padding-bottom: 1vh;
+}
+.my2{
+    margin-bottom: 2vh;
+}
+.card{
+    width: 50%;
+}
+.home-article{
+    display: flex;
+}
+.home-article-img{
+    padding: 10px;
+}
+.home-article-content{
+    padding-left: 20px;   
+    align-self: center;
+}
+.recent{
+    width: 50%;
+    margin: auto;
+    /* padding: 5px 0; */
+    /* text-align: center; */
+    align-items: center;
+}
+section h2{
+    padding-top: 10px;
+    margin-left: 50px;
+    /* position: fixed; */
+    position: sticky;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+.footer{
+    height: 5vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

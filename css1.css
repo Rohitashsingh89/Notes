@@ -1,0 +1,7 @@
+.footer{
+    /* margin-top: 40px; */
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+}

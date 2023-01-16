@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --main-bg-color: purple;
+    /*variable in css*/
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Ubuntu', sans-serif;
+    --font3: 'Roboto', sans-serif;
+
+}
+
+.max-width-1 {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn{
+    border-radius: 5px;
+    padding:0 5px;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    cursor: pointer;
+    color: red;
+    background-color: blue;
+}
+.btn1{
+    margin-top: 10px;
+    display: flex
+}
